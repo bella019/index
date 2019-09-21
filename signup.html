@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+</head>
+<body>
+        <img src="images/logo.png"></p>
+        <p><h2>MentMe Blog</h2></p>
+        <label><p><a href="home.html">Home|</a><a href="about-us.html">About|</a><a href="faq.html">FAQ|</a><a href="login.html">Login/Register</a><a href="contact-us.html">Contact</a></p>
+        <hr><p><h2>Sign Up</h2></p>
+        <hr><p><h2>Create an Account</h2></p>
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <p><label>Firstname:<input type="text" name="firstname" maxlength="60" placeholder="Your Firstname"></label></p>
+                <p><label>Lastrname:<input type="text" name="lastname" maxlength="60" placeholder="Your lastname"></label></p>
+               <p>Gender</p> 
+               <input type="radio" name="gender" value="male">Male
+               <input type="radio" name="gender" value="female">Female
+               <input type="date">
+               <p>Select your interest</p>
+               <ul>
+                   <li><input type="checkbox" name="interest" value="music">Music</li>
+                   <li><input type="checkbox" name="interest" value="comedy">Comedy</li>
+                   <li><input type="checkbox" name="interest" value="showbiz">Showbiz</li>
+                   <li><input type="checkbox" name="interest" value="education">Eduation</li>
+               </ul>
+               Age Range:<select name="age" size="1" text="Select Age">
+                   <option>1</option>
+                   <option>2</option>
+                   <option>3</option>
+                   <option>4</option>
+               </select>
+               <p>Select favourite movie<br><mark>Select more than one where applicable</mark></p>
+            <select name="movie" size="6" multiple>
+                <optgroup label="series">
+                    <option>Game of Thrones</option>
+                <option>Money Heist</option>
+                <option>Big Bang Theory</option>
+                </optgroup>
+                <optgroup label="stand alone">
+                    <option>Ocean's eight</option>
+                    <option>The hacker</option
+                </optgroup>
+            </select>
+               <p>Select Favourite Colour</p>
+               <p><label><input type="color" name="color"></label></p>
+            </fieldset>
+            <fieldset>
+                <legend>Account Details</legend>
+                <p>Upload Profile Picture<br><mark>pictures should no be more than 100kb</mark></p>
+                <p><input type="file"></p>
+                <p><label>Username:<input type="text" name="username" maxlength="60" placeholder="Your Username"></label></p>
+                <p><label>Password:<input type="password" name="password" maxlength="60" placeholder="Your Password"></label></p>
+                <p><label>Retype Password:<input type="password" name="password" maxlength="60" placeholder="Retype Password"></label></p>
+                <label>Rate Us Now (0 to 10) <input type="range" name="rating" min="0" max="10" step="0"></label>
+                <p><input type="checkbox" name="agreement" value="agree">I agree to your terms and condition<br><a href="about-us.html">Click here</a> for terms and conditions</p>
+                <p><input type="submit" value="Sign Up"><input type="reset" value="Clear Data"</p>
+            </fieldset>
+            <fieldset>
+                <legend>Disclaimer</legend>
+                All information provided were given voluntary by the bearer of the above details
+            </fieldset>
+        </form>
+        <h2>Other Links</h2>
+    <ul>
+        <li><a href="home.html">Site Map</a></li>
+    <li><a href="home.html">Gemminity</a></li>
+    <li><a href="home.html">Archives(90)</a></li>
+    <li><a href="home.html">Contact</a></li>
+</ul>
+    <p>Copyright &copy 2019</p>
+    <p>All right Reserved</p>
+</body>
+</html>
